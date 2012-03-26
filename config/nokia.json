@@ -1,0 +1,6 @@
+{
+	"ssoUrl" : "https://sso.developer.nokia.com",
+	"apiUrl" : "https://build.forum.nokia.com/api",
+	"ssoLoginEndpoint" : "/login?service=https%3A%2F%2Fbuild.forum.nokia.com%2Fapi%2Fsign-in%3Fcas%3Dfn"
+	
+}
