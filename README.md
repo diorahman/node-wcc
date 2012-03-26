@@ -10,7 +10,7 @@ Install
 
 Getting Started
 ---
-
+	Please take a look at https://github.com/diorahman/node-wcc-cli as an example of this module's usage
 
 Test
 ---
