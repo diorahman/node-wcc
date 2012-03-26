@@ -10,51 +10,7 @@ Install
 
 Getting Started
 ---
-An example to send a notification to clients through push mechanism
 
-    var options = {
-		hostType : hostType,
-		credentials : {
-			username : serviceId,
-			password : serviceSecret
-		},
-		idType : 'jid',
-		id : id,
-		body : {
-			payload : 'test', 
-			toapp : nnapi.applicationId(serviceId)
-		}
-	}
-	
-	nnapi.send(options, function(err, reply){
-		if(err) throw err;
-		console.log(reply);
-		done();
-	});
-
-Ping the server
-
-	var options = {
-		hostType : hostType,
-		version : version,
-		credentials : {
-			username : serviceId,
-			password : serviceSecret
-		}
-	}
-	
-	nnapi.ping(options, function(err, msg){
-		
-		if(err) throw err;
-		
-		console.log('reply from service: ' +  JSON.stringify(msg));
-		msg.data.should.equal('Ok');
-		done();
-	});
-
-'hostType' could be 'sandbox', 'production' or 'chinaProduction'
-
-You can get serviceId and serviceSecret by registering your service by following this walkthrough: https://projects.developer.nokia.com/notificationsapi/wiki/registerservice
 
 Test
 ---
