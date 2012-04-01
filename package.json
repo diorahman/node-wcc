@@ -1,0 +1,50 @@
+{
+    "name": "node-wcc",
+    "version": "0.0.1",
+    "description": "https://gitorious.org/+wcc-dev/qt-creator/wcc-qt-creator",
+    "keywords": [
+        "nokia",
+        "remote",
+        "compiler",
+		"qt",
+		"wcc",
+		"qtcreator"
+    ],
+    "maintainers": [
+        {
+            "name": "Dhi Aurrahman",
+            "email": "diorahman@gmail.com",
+            "web": "http://upperfloor.posterous.com"
+        }
+    ],
+    "bugs": {
+        "mail": "diorahman@gmail.com",
+        "url": "http://github.com/diorahman/node-wcc/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/diorahman/node-wcc/blob/master/LICENSE.txt"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "http://github.com/diorahman/node-wcc.git"
+        }
+    ],
+    "dependencies": {
+       "konphyg": "= 1.0.5",
+       "buffers": "= 0.1.1",
+       "underscore" : "= 1.2.3",
+	   "should" : "= 0.5.1"
+    },
+    "os": [
+        "linux",
+        "macos",
+		"sunos",
+		"darwin"
+    ],
+    "main": "./wcc.js"
+}
+
